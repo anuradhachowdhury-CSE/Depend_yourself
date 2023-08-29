@@ -20,9 +20,42 @@ ul{
     /* box-shadow: 15px 15px 15px gray; */
    
 }
-img{
+
+main > section {
+    background-image: url(images/taekwondo-students-karate-classes-martial-arts.jpg);
     height: 150vh;
-    width: 190vh;
+    width: 200vh;
     background-size: cover;
     background-position: center;
+
+
+}
+section > h3 {
+    padding: 50px 50px 10px 50px;
+    padding-left: 30px;
+}
+section > button {
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: gray;
+    font-weight: bolder;
+}
+button:hover{
+    color: white;
+}
+footer{
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.logo{
+    font-style: italic;
+    font-weight: 900;
+    font-size: xx-large;
+  
 }
