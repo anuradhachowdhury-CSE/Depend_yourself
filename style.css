@@ -1,0 +1,28 @@
+ul > li{
+    display: inline;
+font-size: larger;
+justify-content: end;
+ padding-left: 30px;
+
+}
+ul > li > a{
+    text-decoration: none;
+    margin: 5px;
+    color: black;
+    font-weight: bolder;
+   
+   
+}
+ul{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 15px;
+    /* box-shadow: 15px 15px 15px gray; */
+   
+}
+img{
+    height: 150vh;
+    width: 190vh;
+    background-size: cover;
+    background-position: center;
+}
